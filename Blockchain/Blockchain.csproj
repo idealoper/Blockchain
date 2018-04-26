@@ -39,6 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\ChainItem.cs" />
+    <Compile Include="Base\ChainItemT.cs" />
+    <Compile Include="ContractDefinition.cs" />
+    <Compile Include="ContractDefinitionChainItem.cs" />
+    <Compile Include="ContractObjectDefinition.cs" />
+    <Compile Include="ContractObjectDefinitionChainItem.cs" />
+    <Compile Include="ContractSigning.cs" />
+    <Compile Include="ContractSigningChainItem.cs" />
+    <Compile Include="ContractSubjectDefinition.cs" />
+    <Compile Include="ContractSubjectDefinitionChainItem.cs" />
+    <Compile Include="Base\IPayloadSerializer.cs" />
+    <Compile Include="Base\PayloadSerializerFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
